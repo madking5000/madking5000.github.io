@@ -1,11 +1,14 @@
+/*the body content*/
 body{
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.5;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
+
+/*the navigation bar edit*/
 .logo{
     padding: 0 0.5em;
 }
@@ -40,7 +43,7 @@ body{
     display: flex;
     text-decoration: none;
     padding: 0.5em;
-    font-size: 14px;
+    font-size: 20px;
     margin: 0 0.5em;
     border-radius: 10px;
     color: white;
@@ -51,9 +54,47 @@ body{
     color: white;
 }
 
+
+/*the body part*/
+
+
+#content {
+   
+}
 .welcome {
     background-color: #013d64;
     margin: 2% 20%;
-    align-items: center;
-    padding: ;
+    padding: 20px ;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+
+
+
+
+/*footer */
+
+#footer {
+    background: #013d64;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    color: white;
+    
+
+}
+
+#footer ul{
+    list-style: none;
+
+}
+#footer li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 0.5em;
+    list-style: none;
+
 }
