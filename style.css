@@ -18,8 +18,7 @@ body{
     font-size: 20px;
     color: white;
     padding: 0.5em 0;
-    
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
+    box-shadow: 2px 2px 12px  rgba(0, 0, 0, 0.6);
     background-color: #013d64;
 }
 
@@ -57,9 +56,8 @@ body{
 
 /*the body part*/
 
-
 #content {
-   
+    padding-bottom: 160px;
 }
 .welcome {
     background-color: #013d64;
@@ -71,6 +69,25 @@ body{
     border-radius: 20px;
 }
 
+
+
+.bank_accounts {
+    background-color: #013d64;
+    align-self: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+
+}
+.bank_buttons {
+    padding: 20px;
+    display: inline-flex;
+
+}
 
 
 
