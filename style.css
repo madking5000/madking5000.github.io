@@ -59,7 +59,7 @@ body{
 #content {
     padding-bottom: 160px;
 }
-.welcome {
+#welcome {
     background-color: #013d64;
     margin: 2% 20%;
     padding: 20px ;
@@ -71,7 +71,7 @@ body{
 
 
 
-.bank_accounts {
+#bank_accounts {
     background-color: #013d64;
     align-self: center;
     padding: 20px;
@@ -81,15 +81,43 @@ body{
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 20px;
-
-}
-.bank_buttons {
     overflow: auto;
     display: flex;
+
+}
+
+
+ .column1, .column2 {
+    width: 50%;
+    height: 100%;
+    margin: 1%;
+    padding: 1%;
 }
 
 
 
+.column1 ul, .column2 ul{
+    align-items: center;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.column1 li a, .column2 li a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 3%;
+    background-color: beige;
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+
+}
+
+button:hover{
+    background-color: rgb(66, 3, 3);
+}
 /*footer */
 
 #footer {
