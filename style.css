@@ -84,9 +84,8 @@ body{
 
 }
 .bank_buttons {
-    padding: 20px;
-    display: inline-flex;
-
+    overflow: auto;
+    display: flex;
 }
 
 
