@@ -115,30 +115,3 @@ body{
 
 }
 
-button:hover{
-    background-color: rgb(66, 3, 3);
-}
-/*footer */
-
-#footer {
-    background: #013d64;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
-    color: white;
-    
-
-}
-
-#footer ul{
-    list-style: none;
-
-}
-#footer li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    padding: 0.5em;
-    list-style: none;
-
-}
